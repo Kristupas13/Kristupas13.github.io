@@ -1,0 +1,11 @@
+.fitVideo {
+    object-fit: contain; /* Maintain aspect ratio while covering the entire container */
+    height: 100%;
+    width: auto;
+    border-radius: 10px; /* Adjust the radius as needed */
+    overflow: hidden; /* Ensure the rounded corners are visible */
+}
+
+.video {
+    z-index: 0;
+}

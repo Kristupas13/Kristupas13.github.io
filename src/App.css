@@ -10,32 +10,18 @@
   transition: filter 0.3s ease; /* Smooth transition effect */
 }
 
-/* Style for the left column */
 .left-column {
-  flex: 1; /* Take up 50% of the container */
-  background-image: url('./images/1.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+    flex: 1;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Horizontally center the children */
-  justify-content: space-between;
 }
 
 /* Style for the right column */
 .right-column {
   flex: 1; /* Take up 50% of the container */
-  background-image: url('./images/2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Horizontally center the children */
-  justify-content: space-between;
 }
 
 .christmas-button {
@@ -51,17 +37,4 @@
 
 .christmas-button:hover {
   background-color: #c0392b; /* Darker red on hover */
-}
-
-
-@media (hover: hover) and (min-width: 768px) {
-  .split {
-    opacity: 0.5; /* Adjust the opacity on hover */
-    transition: opacity 0.5s ease; /* Smooth transition effect for opacity */
-  }
-
-  .split:hover {
-    opacity: 1; /* Adjust the opacity on hover */
-    transition: opacity 0.5s ease; /* Smooth transition effect for opacity */
-  }
 }
