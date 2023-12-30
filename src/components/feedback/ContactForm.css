@@ -1,0 +1,77 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  justify-items: end;
+  height: 70%;
+  width: 70%;
+}
+
+.thank-you {
+  font-size: 36px; /* Adjust the font size as needed */
+  color: white;
+}
+
+.test {
+  background-color: #c0392b;
+  padding: 4%;
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.child {
+  flex: 1;
+  font-size: 18px; /* Adjust the font size as needed */
+  color: white;
+  padding-bottom: 10%;
+}
+
+.or {
+  flex: 1;
+  font-size: 18px; /* Adjust the font size as needed */
+  color: white;
+  padding-bottom: 2%;
+}
+
+.flex-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.email-input {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  font-size: 18px; /* Adjust the font size as needed */
+}
+
+.custom-input {
+  width: 100%; /* Make the input fill the width of its container */
+  padding: 10px; /* Adjust padding as needed for larger input */
+  border: 1px solid #ccc; /* Add border for better visibility */
+  border-radius: 10px; /* Add rounded corners */
+  box-sizing: border-box; /* Include padding and border in the input's total width and height */
+  font-size: 18px; /* Adjust the font size as needed */
+
+}
+
+.christmas-button {
+    background-color: #e74c3c; /* Red background */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid #fff; /* White border */
+    border-radius: 5px;
+  }
+  
+  .christmas-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  .text-area {
+    height: 100%;
+    resize: none; /* Disable textarea resizing by the user */
+  }
