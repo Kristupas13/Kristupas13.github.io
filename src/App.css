@@ -1,78 +1,55 @@
-
-/* Container for the two columns */
-.container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.thumbnail-container {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 100; /* Adjust the z-index to ensure the thumbnail appears above other content */
-}
-
 .thumbnail {
-  width: 100px; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
   /* Additional styling for your thumbnail */
   border-radius: 50%;
 }
 
-.split {
-  transition: filter 0.3s ease; /* Smooth transition effect */
+.content {
+  display: flex;
+  height: 100vh;
 }
 
-.left-column {
-  flex: 1; /* Take up 50% of the container */
+.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Style for the right column */
-.middle-column {
-  flex: 1; /* Take up 50% of the container */
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.middle-image {
-  height: 70%; /* Maintain the aspect ratio */
-  border-radius: 25px; /* Adjust the radius as needed */
-}
-
-.right-column {
-  flex: 1; /* Take up 50% of the container */
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(198, 198, 198);
-  color: black;
-  height: 40px;
-  position: fixed;
-  bottom: 0;
-  cursor: pointer;
   width: 100%;
 }
 
-.facebook-icon {
-  font-size: 22px;
-  padding-left: 20px;
-  margin-right: 10px;
-  color: #1877f2; /* Add the color you prefer, #1877f2 is Facebook's blue color */
+@media (max-width: 1280px) {
+  .content {
+    flex-direction: column;
+  }
 
+  .child:nth-child(1) {
+    order: 2;
+  }
+
+  .child:nth-child(2) {
+    order: 1;
+  }
+
+  .child:nth-child(3) {
+    order: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .child:nth-child(1) {
+    order: 2;
+  }
+
+  .child:nth-child(2) {
+    order: 1;
+  }
+
+  .child:nth-child(3) {
+    order: 3;
+  }
 }

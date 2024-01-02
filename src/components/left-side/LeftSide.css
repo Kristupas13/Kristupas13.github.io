@@ -1,9 +1,0 @@
-.video {
-    height: 70%; /* Maintain the aspect ratio */
-}
-
-.fitVideo {
-    object-fit: cover; /* Maintain aspect ratio while covering the entire container */
-    border-radius: 25px; /* Adjust the radius as needed */
-    overflow: hidden; /* Ensure the rounded corners are visible */
-}

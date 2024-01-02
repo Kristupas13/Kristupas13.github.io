@@ -10,7 +10,7 @@ const VideoBackground = () => {
         <source src="video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="overlay"></div>
+      <div className='overlay'></div>
     </div>
   );
 };

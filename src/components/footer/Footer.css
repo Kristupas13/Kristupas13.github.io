@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; /* Set background color to whitesmoke */
+    color: black;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .facebook-icon {
+    font-size: 22px;
+    padding-left: 20px;
+    margin-right: 10px;
+    color: #1877f2; /* Add the color you prefer, #1877f2 is Facebook's blue color */
+  }

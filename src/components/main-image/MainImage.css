@@ -1,0 +1,6 @@
+.main-image {
+    border-radius: 25px; /* Adjust the radius as needed */
+    object-fit: contain; /* Maintain aspect ratio while covering the entire container */
+    border-radius: 25px; /* Adjust the radius as needed */
+    height: 60%;
+}

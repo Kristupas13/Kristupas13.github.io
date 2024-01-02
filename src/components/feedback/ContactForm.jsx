@@ -9,7 +9,6 @@ export function ContactForm() {
   }
 
   return (
-    <div className="parent">
       <div className="test">
       <div className="child">
         Parašykite mums į <a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=61552746337962">Facebook paskyrą</a>
@@ -50,7 +49,5 @@ export function ContactForm() {
         </button>
       </form>
       </div>
-
-    </div>
   );
 }
