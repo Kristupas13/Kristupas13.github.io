@@ -1,24 +1,47 @@
 import './App.css';
-import { ContactForm } from './components/feedback/ContactForm';
-import Footer from './components/footer/Footer';
-import MainImage from './components/main-image/MainImage';
-import MainVideo from './components/main-video/MainVideo';
 import Navbar from './components/navbar/Navbar';
 import VideoBackground from './components/video-background/VideoBackground';
+import ImageCarousel from './components/image-carousel/ImageCarousel';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <VideoBackground />
-      <Navbar/>
+      <div className="parent">
+        <div className='section'>
+          <div className='part'>
+            <ImageCarousel />
+          </div>
+          <div className='part'>
+            <img src="7.jpg" alt='2' className='imagas' />
+          </div>
+        </div>
 
-      <div className='content'>
-        <div className='child'><MainVideo /></div>
-        <div className='child'><MainImage /></div>
-        <div className='child'><ContactForm /></div>
+        <div className='section bg-white'>
+          <div>
+            <img src="1.jpg" alt='2' className='imagas' />
+          </div>
+          <div>
+            <img src="3.jpg" alt='2' className='imagas' />
+          </div>
+        </div>
+
+        <div className='section bg-white'>
+          <div>
+            <img src="7.jpg" alt='2' className='imagas' />
+          </div>
+          <div>
+            <img src="7.jpg" alt='2' className='imagas' />
+          </div>
+          <div>
+            <img src="7.jpg" alt='2' className='imagas' />
+          </div>
+        </div>
       </div>
 
-      <Footer />
+      <Footer/>
     </div>
   );
 }

@@ -1,3 +1,9 @@
+.thumbnail {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  /* Additional styling for your thumbnail */
+  border-radius: 50%;
+}
 
 .nav-content {
   display: flex;

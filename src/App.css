@@ -1,55 +1,31 @@
-.thumbnail {
-  width: 50px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
-  /* Additional styling for your thumbnail */
-  border-radius: 50%;
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.content {
+.section {
   display: flex;
-  height: 100vh;
-}
-
-.child {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100%;
+  gap: 8%;
+  justify-content: center;
+  padding: 10% 5% 10% 5%;
+  padding-bottom: 5%;
+  flex: 1;
+}
+
+.part {
+  width: 33%;
+  align-self: flex-start;
+}
+
+.bg-white {
+  background-color: white;
+  padding: 10%;
+}
+
+.imagas {
   width: 100%;
-}
-
-@media (max-width: 1280px) {
-  .content {
-    flex-direction: column;
-  }
-
-  .child:nth-child(1) {
-    order: 2;
-  }
-
-  .child:nth-child(2) {
-    order: 1;
-  }
-
-  .child:nth-child(3) {
-    order: 3;
-  }
-}
-
-@media (max-width: 768px) {
-  .content {
-    flex-direction: column;
-  }
-
-  .child:nth-child(1) {
-    order: 2;
-  }
-
-  .child:nth-child(2) {
-    order: 1;
-  }
-
-  .child:nth-child(3) {
-    order: 3;
-  }
+  object-fit: cover;
+  border-radius: 25px;
 }
