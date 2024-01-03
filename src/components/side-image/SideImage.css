@@ -2,9 +2,8 @@
     border-radius: 25px; /* Adjust the radius as needed */
     object-fit: contain; /* Maintain aspect ratio while covering the entire container */
     border-radius: 25px; /* Adjust the radius as needed */
-    height: 60%;
-    cursor: pointer;
-    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    /*cursor: pointer;
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;*/
 }
   
 .side-image:hover {

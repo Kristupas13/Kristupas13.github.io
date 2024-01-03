@@ -14,18 +14,54 @@
   flex: 1;
 }
 
+.section-2 {
+  display: flex;
+  align-items: center;
+  gap: 8%;
+  justify-content: center;
+  padding: 5%;
+  flex: 1;
+}
+
 .part {
   width: 33%;
   align-self: flex-start;
 }
 
-.bg-white {
-  background-color: white;
-  padding: 10%;
+.w-full {
+  margin-top: 10px;
+  width: 75%;
 }
 
-.imagas {
-  width: 100%;
+.bg-white {
+  background-color: white;
+}
+
+.didesne {
+  height: 750px;
+  width: 750px;
+  padding-bottom: 2%;
+}
+
+.tt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testine {
+  height: 500px;
+  width: 500px;
+  padding-bottom: 2%;
+}
+
+.combo {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
   object-fit: cover;
   border-radius: 25px;
 }
