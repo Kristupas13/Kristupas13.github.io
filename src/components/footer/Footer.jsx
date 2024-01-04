@@ -8,9 +8,10 @@ const Footer = () => {
     };
 
     return (
-        <footer className="footer" onClick={redirectToFacebookPage}>
-            Daugiau informacijos <FaFacebook className="facebook-icon" />
-        </footer>
+        <div>
+            
+        </div>
+
     )
 }
 

@@ -1,47 +1,33 @@
-.thumbnail {
-  width: 50px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
-  /* Additional styling for your thumbnail */
-  border-radius: 50%;
-}
-
 .nav-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white; /* Set background color to whitesmoke */
+  background-color: whitesmoke; /* Set background color to whitesmoke */
   width: 100%; /* Adjusted width to account for 80px padding on both sides */
   padding: 8px 2.5%;
   position: fixed;
   z-index: 1;
 }
 
-.p-3 {
-  padding-left: 5px;
-}
-
-.first-part {
-  display: flex;
-  align-items: center;
+.thumbnail {
+  width: auto; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  /* Additional styling for your thumbnail */
 }
 
 .middle-part {
   display: flex;
 }
 
-.last-part {
-  display: flex;
+.text {
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.6s ease; /* Add a transition effect to the background-color property */
 }
 
-  .text {
-    padding: 5px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.6s ease; /* Add a transition effect to the background-color property */
-  }
-  
-  .text:hover {
-    background-color: rgb(198, 198, 198);
-    transition: background-color 0.6s ease; /* Add a transition effect to the background-color property */
-  }
+.text:hover {
+  background-color: rgb(198, 198, 198);
+  transition: background-color 0.6s ease; /* Add a transition effect to the background-color property */
+}
   
