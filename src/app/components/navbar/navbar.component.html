@@ -1,0 +1,23 @@
+<nav class="flex items-center justify-between bg-white w-full px-7 border border-b-red-700">
+  <div class="p-3">
+    Logo
+  </div>
+  <ul class="flex">
+    <li class="p-3">
+      <a [routerLink]="['/about']" routerLinkActive="router-link-active"
+        class="bg-transparent hover:bg-gray-100 py-2 px-4 rounded">
+        Rinkiniai
+      </a>
+    </li>
+    <li class="p-3">
+      <a [routerLink]="['/about']" routerLinkActive="router-link-active"
+        class="bg-transparent hover:bg-gray-100 py-2 px-4 rounded">
+        Korteles
+      </a>
+    </li>
+  </ul>
+  <a [routerLink]="['/about']" routerLinkActive="router-link-active"
+    class="bg-transparent hover:bg-gray-100 py-2 px-4 rounded">
+    Apie
+  </a>
+</nav>
